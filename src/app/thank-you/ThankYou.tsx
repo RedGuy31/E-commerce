@@ -18,7 +18,7 @@ const ThankYou = () => {
     retryDelay: 500,
   });
 
-  console.log(data);
+  console.log(`${data}=====thank you page`);
 
   if (data === undefined) {
     return (
