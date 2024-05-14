@@ -18,8 +18,6 @@ const ThankYou = () => {
     retryDelay: 500,
   });
 
-  console.log(`${data}=====thank you page`);
-
   if (data === undefined) {
     return (
       <div className="w-full mt-24 flex justify-center">
